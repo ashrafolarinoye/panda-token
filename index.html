@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 	
-<!-- Mirrored from iconic-themes.com/html/crypto/crypto/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Mar 2023 23:31:24 GMT -->
+
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,23 +11,21 @@
         <meta name="keywords" content="HTML5 Template, Themeforest, agency, blog, business, clean, corporate, creative, modern, one page, photography, portfolio" > 
         <meta name="description" content="Discover Oscarthemes - Business HTML5 Template, responsive Bootstrap templates, & HTML templates" > 
         <meta name="theme-color" content="#4b6fff">
-		<title>Home | Xber</title>
+		<title>Home | Crypton</title>
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet">
         <!-- Animate CSS -->
-        <link href="css/animate.css" rel="stylesheet"> 
+        <link href="css/animate.css" rel="stylesheet">
+        <!-- Scroll Animation -->
+        <link href="css/aos.css" rel="stylesheet">
         <!-- Flat Icon CSS -->
         <link href="css/svg.css" rel="stylesheet">
-        <!-- Responsive Menu css -->
-        <link rel="stylesheet" href="css/responsivemenu.css">
         <!-- Slick Slider CSS -->
         <link href="css/slick.css" rel="stylesheet">
-        <!-- Magnific Popup CSS -->
-        <link href="css/magnific-popup.css" rel="stylesheet">
-        <!-- Donut Chart CSS --> 
-        <link href="css/donut-chart.css" rel="stylesheet"> 
+        <!-- Responsive Menu css -->
+        <link rel="stylesheet" href="css/responsivemenu.css">
         <!-- Typography CSS -->
-        <link href="css/typography.css" rel="stylesheet">  
+        <link href="css/typography.css" rel="stylesheet">   
         <!-- Widget Css -->
         <link href="css/widget.css" rel="stylesheet">
         <!-- Short Code CSS -->
@@ -38,6 +36,8 @@
         <link href="css/color.css" rel="stylesheet">
         <!-- Responsive CSS -->
         <link href="css/responsive.css" rel="stylesheet">
+        <!-- Google Font Link -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans|Ubuntu" rel="stylesheet">
         <!-- FAVICONS -->
         <link rel="shortcut icon" href="images/favicon/favicon.html">
         <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.html">
@@ -45,45 +45,35 @@
         <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.html">
         <link rel="icon" sizes="192x192" href="images/favicon/icon-192x192.html">
 	</head>
-	<body>
+	<body class="crypton-vertion">
         <!-- LOADER --> 
         <div id="loader-overflow">
           <div id="loader3" class="loader-cont">Please enable JS</div>
         </div> 
-		<div id="home" class="main-wrapper">
+		<div class="main-wrapper">
             <!-- Header Start -->     
-            <header id="header" class="oscar-header-3 ">
+            <header id="header" class="oscar-header-3">
                 <!-- Navigation Outer Wrap Start -->
                 <div class="nav-outer sticky-header">
                     <div class="container">
                         <!-- Logo Start -->
                         <h1 class="logo">
                             <a href="index.html" title="oscarthemes">
-                                <img src="images/xber/logo.png" alt="oscarthemes">
+                                <img src="images/crypton/logo.png" alt="oscarthemes">
                             </a>
                         </h1>
                         <!-- /Logo End -->
                         <div class="pull-right menu-holder">
                             <div class="mobile-menu"></div>
-                            <div  class="main-menu navigation">
+                            <div id="opg-nav" class="main-menu navigation">
                                 <nav>
-                                    <ul id="opg-nav">
+                                    <ul>
                                         <li class="active"><a href="#home">Home</a></li>                                                         
-                                        <li><a href="#about-us">About</a></li>
                                         <li><a href="#featured">Features</a></li>
+                                        <li><a href="#tokensale">Buy</a></li>
+                                        <li><a href="#about-us">About</a></li>
                                         <li><a href="#rodemap">Roadmap</a></li>
-                                        <li><a href="#tokensale">Token Sale</a></li>
-                                        <li><a href="#ourteam">Our Team</a></li>
-                                        <li><a href="#blog">Blog</a></li>
                                         <li><a href="#contact">Contact</a></li>
-
-                                        <!-- <li><a href="#">Blog <span class="caret"></span></a>
-                                            <ul class="sub-menu text-left">
-                                                <li><a href="blog-grid.html">blog-grid</a></li>
-                                                <li><a href="blog-list.html">blog-list</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li> -->
                                     </ul>
                                 </nav>
                             </div>
@@ -97,16 +87,16 @@
             <div class="main-banner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-sm-12">
+                        <div data-aos="fade-right" class="col-md-4">
                             <div class="banner-caption-wrap">
-                                <h1 class="banner-title th-cl">World’s Safest digital blockchain platform</h1>
+                                <h1 class="banner-title">An operating system for collective intelligence</h1>
                                 <p class="banner-caption">Acelerator Program support may be financial andor provision of other resources.</p>
                                 <a href="#" class="btn radius-5 th-bg">White Paper</a>
                             </div>
                         </div>
-                        <div class="col-md-8 hidden-sm hidden-xs">
+                        <div data-aos="fade-left" class="col-md-8">
                             <div class="banner-thumb">
-                                <img src="images/xber/blockchain.png" alt="">
+                                <img src="images/crypton/iisometric.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -115,145 +105,209 @@
             <!-- /Static Banner Wrap -->
             <!-- oscar Contant Wrapper Start-->  
             <div id="main-contant" class="main-contant">  
-                <!-- About Us Section Start -->
-                <section id="about-us" class="border-bottom">
+                <!-- Token Sale Section Start -->
+                <section id="featured" class="">
                     <!-- Featured Item Section Start -->
-                    <div class="featured-slider-section mb-60" id="featured">
+                    <div class="featured-slider-section" id="featured">
                         <div class="container">
-                            <!-- Simple Heading Start -->
-                            <h4 class="simple-heading">Featured in</h4>
-                            <!-- Simple Heading End -->
-                            <div class="row featured-slider">
+                            <div data-aos="fade-up" class="row featured-slider  mb-15 featured-slider-2">
                                 <div class="col-md-3">
                                     <!-- Featured Thumb Start -->
-                                    <div class="featured-thumb">
-                                        <a href="#"><img src="images/xber/featured-1.jpg" alt=""></a>
+                                    <div class="featured-thumb b-shadow">
+                                        <a href="#"><img src="images/crypton/featured-1.png" alt=""></a>
                                     </div>
                                     <!-- Featured Thumb End -->
                                 </div>
                                 <div class="col-md-3">
                                     <!-- Featured Thumb Start -->
-                                    <div class="featured-thumb">
-                                        <a href="#"><img src="images/xber/featured-2.jpg" alt=""></a>
+                                    <div class="featured-thumb b-shadow">
+                                        <a href="#"><img src="images/crypton/featured-2.png" alt=""></a>
                                     </div>
                                     <!-- Featured Thumb End -->
                                 </div>
                                 <div class="col-md-3">
                                     <!-- Featured Thumb Start -->
-                                    <div class="featured-thumb">
-                                        <a href="#"><img src="images/xber/featured-3.jpg" alt=""></a>
+                                    <div class="featured-thumb b-shadow">
+                                        <a href="#"><img src="images/crypton/featured-3.png" alt=""></a>
                                     </div>
                                     <!-- Featured Thumb End -->
                                 </div>
                                 <div class="col-md-3">
                                     <!-- Featured Thumb Start -->
-                                    <div class="featured-thumb">
-                                        <a href="#"><img src="images/xber/featured-2.jpg" alt=""></a>
+                                    <div class="featured-thumb b-shadow">
+                                        <a href="#"><img src="images/crypton/featured-4.png" alt=""></a>
                                     </div>
                                     <!-- Featured Thumb End -->
                                 </div>
                                 <div class="col-md-3">
                                     <!-- Featured Thumb Start -->
-                                    <div class="featured-thumb">
-                                        <a href="#"><img src="images/xber/featured-4.jpg" alt=""></a>
+                                    <div class="featured-thumb b-shadow">
+                                        <a href="#"><img src="images/crypton/featured-2.png" alt=""></a>
                                     </div>
                                     <!-- Featured Thumb End -->
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" id="tokensale" class="tokensale-wrap">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="token-countdown-outer">
+                                            <div class="token-countdown">
+                                                <!--Count Down Start-->
+                                                <ul class="countdown row">
+                                                    <li class="col-md-3 col-xs-3 col-sm-3">
+                                                        <h6 class="days">70</h6>
+                                                        <p class="days_ref">Days</p>
+                                                    </li>
+                                                    <li class="col-md-3 col-xs-3 col-sm-3">
+                                                        <h6 class="hours">15</h6>
+                                                        <p class="hours_ref">Hours</p>
+                                                    </li>
+                                                    <li class="col-md-3 col-xs-3 col-sm-3">
+                                                        <h6 class="minutes">35</h6>
+                                                        <p class="minutes_ref">Minutes</p>
+                                                    </li>
+                                                    <li class="col-md-3 col-xs-3 col-sm-3">
+                                                        <h6 class="seconds last">11</h6>
+                                                        <p class="seconds_ref">Seconds</p>
+                                                    </li>
+                                                </ul>
+                                                <!--Count Down End-->
+                                            </div>
+                                            <div class="horizontal-progress radius-5">
+                                                <div class="pull-right value-number">500,000,000 XRB</div>
+                                                <div class="progress">
+                                                    <div class="progress-outer-bg radius-5">
+                                                        <div class="progress-bar animated slideInLeft th-bg" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                                            <div class="text-center th-cl p-absolute">
+                                                                200,000, XRB
+                                                            </div>
+                                                        </div>   
+                                                    </div>
+                                                </div>
+                                                <div class="pull-right value-number sec">RXB Raised: 500.000</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="vertical-progress">
+                                            <div class="progress">
+                                                <div class="progress-bar animated slideInDown" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height:80%">
+                                                    <div class="text-center p-absolute">
+                                                        80%
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar animated slideInDown" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height:50%">
+                                                    <div class="text-center p-absolute">
+                                                        50%
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar animated slideInDown" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height:60%">
+                                                    <div class="text-center p-absolute">
+                                                        60%
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar animated slideInDown" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height:70%">
+                                                    <div class="text-center p-absolute">
+                                                        70%
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="by-token">
+                                            <h5 class="title"><span class="th-cl">Token Sale</span> Allocation</h5>
+                                            <a class="btn th-bg" href="#">Buy Tokens</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Featured Item Section End -->
+                </section>
+                <!-- Token Sale Section End -->
+                <!-- About Us Section Start -->
+                <section class=""  id="about-us">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- Section Heading Start -->
-                                <div class="section-heading-2 mb-21">
-                                    <h2 class="title">About Xber</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius magna aliqua. Ut enim ad mini veniam.</p>
+                        <div class="about-us-wrap mb-70">
+                            <div class="row">
+                                <div data-aos="fade-left" class="col-md-6 hidden-xs col-sm-6">
+                                    <div class="about-thumb">
+                                        <div class="thumb">
+                                            <img src="images/crypton/iisometric-2.png" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- Section Heading End -->
-                                <div class="video-thumb radius-5 bg-black-alfa-30 thumb">
-                                    <img src="images/xber/video-thumb.jpg" alt="">
-                                    <a class="video-btn popup-youtube" href="https://www.youtube.com/embed/tgbNymZ7vqY"><span></span></a>
+                                <div data-aos="fade-right" data-aos-delay="500" class="col-md-6 col-sm-6">
+                                    <div class="about-caption">
+                                        <h3 class="title">Faster and Digital Transformation</h3>
+                                        <p>Our technology is revolutionzing the finicial services industry by empowering millions across he globe to authenticate and transact immediately and without costly intermediaries.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <!-- Section Heading Start -->
-                                <div class="section-heading-2 mb-21">
-                                    <h2 class="title">Features</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius magna aliqua. Ut enim ad mini veniam.</p>
-                                </div>
-                                <!-- Section Heading End -->
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <!-- Features Thumb Start -->
-                                        <div class="features-thumb">
-                                            <div class="svg-icon th-cl">
-                                                <i class=" icon-shield"></i>
-                                            </div><!-- / Svg Icon -->
-                                            <div class="text">
-                                                <h6 class="title"><a href="#">Safe & Secure</a></h6><!-- / Title --> 
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                        <!-- Features Thumb Start -->
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <!-- Features Thumb Start -->
-                                        <div class="features-thumb">
-                                            <div class="svg-icon th-cl">
-                                                <i class="icon-dollar"></i>
-                                            </div><!-- / Svg Icon -->
-                                            <div class="text">
-                                                <h6 class="title"><a href="#">Scalable</a></h6><!-- / Title --> 
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                        <!-- Features Thumb Start -->
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <!-- Features Thumb Start -->
-                                        <div class="features-thumb">
-                                            <div class="svg-icon th-cl">
-                                                <i class=" icon-exchange2"></i>
-                                            </div><!-- / Svg Icon -->
-                                            <div class="text">
-                                                <h6 class="title"><a href="#">Instant Exchange</a></h6><!-- / Title --> 
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                        <!-- Features Thumb Start -->
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <!-- Features Thumb Start -->
-                                        <div class="features-thumb">
-                                            <div class="svg-icon th-cl">
-                                                <i class="icon-box"></i>
-                                            </div><!-- / Svg Icon -->
-                                            <div class="text">
-                                                <h6 class="title"><a href="#">Instant Trading</a></h6><!-- / Title --> 
-                                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                        <!-- Features Thumb Start -->
+                        </div>
+                        <div class="row">
+                            <div data-aos="fade-up" class="col-md-4 col-sm-6">
+                                <!-- Features Thumb Start -->
+                                <div class="features-thumb-2 radius-5">
+                                    <div class="svg-icon th-cl">
+                                        <i class=" icon-shield"></i>
+                                    </div><!-- / Svg Icon -->
+                                    <div class="text">
+                                        <h6 class="title"><a href="#">Safe & Secure</a></h6><!-- / Title --> 
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
                                     </div>
                                 </div>
+                                <!-- Features Thumb Start -->
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="300" class="col-md-4 col-sm-6">
+                                <!-- Features Thumb Start -->
+                                <div class="features-thumb-2 radius-5">
+                                    <div class="svg-icon th-cl">
+                                        <i class=" icon-exchange2"></i>
+                                    </div><!-- / Svg Icon -->
+                                    <div class="text">
+                                        <h6 class="title"><a href="#">Instant Exchange</a></h6><!-- / Title --> 
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                                    </div>
+                                </div>
+                                <!-- Features Thumb Start -->
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="600" class="col-md-4 hidden-sm">
+                                <!-- Features Thumb Start -->
+                                <div class="features-thumb-2 radius-5">
+                                    <div class="svg-icon th-cl">
+                                        <i class="icon-box"></i>
+                                    </div><!-- / Svg Icon -->
+                                    <div class="text">
+                                        <h6 class="title"><a href="#">Instant Trading</a></h6><!-- / Title --> 
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor.</p>
+                                    </div>
+                                </div>
+                                <!-- Features Thumb Start -->
                             </div>
                         </div>
                     </div>
                 </section>
                 <!-- About Us Section End -->
                 <!-- RoadMap Section Start -->
-                <section class="border-bottom" id="rodemap">
+                <section class="" id="rodemap">
                     <div class="container">
                         <!-- Section Heading Start -->
-                        <div class="section-heading-2 text-center mb-61">
+                        <div class="section-heading-2 white text-center mb-61">
                             <h2 class="title">Road Map</h2>
                             <p>A decentralized, distributed Blockchain system providing businesses </p>
                         </div>
                         <!-- Section Heading End -->
-                        <div class="roadmap-slider-2 gd-none">
-                            <div class="col-md-3">
+                        <div class="roadmap-slider-2">
+                            <div data-aos="zoom-in" class="col-md-3">
                                 <!-- RoadMap Section Start -->
                                 <div class="roadmap-thumb-2 radius-5">
                                     <h6 class="d-map th-cl">Apr 10, 2018</h6>
@@ -261,7 +315,7 @@
                                 </div>
                                 <!-- RoadMap Section End -->
                             </div>
-                            <div class="col-md-3">
+                            <div data-aos="zoom-in" data-aos-delay="" class="col-md-3">
                                 <!-- RoadMap Section Start -->
                                 <div class="roadmap-thumb-2 radius-5">
                                     <h6 class="title">Pre-ICO Opens</h6>
@@ -269,7 +323,7 @@
                                 </div>
                                 <!-- RoadMap Section End -->
                             </div>
-                            <div class="col-md-3">
+                            <div data-aos="zoom-in" data-aos-delay="300" class="col-md-3">
                                 <!-- RoadMap Section Start -->
                                 <div class="roadmap-thumb-2 radius-5">
                                     <h6 class="d-map th-cl">Jul 24, 2018</h6>
@@ -277,7 +331,7 @@
                                 </div>
                                 <!-- RoadMap Section End -->
                             </div>
-                            <div class="col-md-3">
+                            <div data-aos="zoom-in" data-aos-delay="400" class="col-md-3">
                                 <!-- RoadMap Section Start -->
                                 <div class="roadmap-thumb-2 radius-5">
                                     <h6 class="title">Pre-ICO Closed</h6>
@@ -285,7 +339,7 @@
                                 </div>
                                 <!-- RoadMap Section End -->
                             </div>
-                            <div class="col-md-3">
+                            <div data-aos="zoom-in" data-aos-delay="500" class="col-md-3">
                                 <!-- RoadMap Section Start -->
                                 <div class="roadmap-thumb-2 radius-5">
                                     <h6 class="d-map th-cl">Apr 10, 2018</h6>
@@ -293,7 +347,7 @@
                                 </div>
                                 <!-- RoadMap Section End -->
                             </div>
-                            <div class="col-md-3">
+                            <div data-aos="zoom-in" data-aos-delay="600" class="col-md-3">
                                 <!-- RoadMap Section Start -->
                                 <div class="roadmap-thumb-2 radius-5">
                                     <h6 class="d-map th-cl">Apr 10, 2018</h6>
@@ -301,7 +355,7 @@
                                 </div>
                                 <!-- RoadMap Section End -->
                             </div>
-                            <div class="col-md-3">
+                            <div data-aos="zoom-in" data-aos-delay="700" class="col-md-3">
                                 <!-- RoadMap Section Start -->
                                 <div class="roadmap-thumb-2 radius-5">
                                     <h6 class="d-map th-cl">Apr 10, 2018</h6>
@@ -309,7 +363,7 @@
                                 </div>
                                 <!-- RoadMap Section End -->
                             </div>
-                            <div class="col-md-3">
+                            <div data-aos="zoom-in" data-aos-delay="800" class="col-md-3">
                                 <!-- RoadMap Section Start -->
                                 <div class="roadmap-thumb-2 radius-5">
                                     <h6 class="d-map th-cl">Apr 10, 2018</h6>
@@ -321,200 +375,60 @@
                     </div>
                 </section>
                 <!-- RoadMap Section End -->
-                <!-- Token Sale Section Start -->
-                <section class="border-bottom" id="tokensale">
-                    <div class="container">
-                        <!-- Section Heading Start -->
-                        <div class="section-heading-2 text-center mb-61">
-                            <h2 class="title">Token Sale Allocation</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius magna aliqua. Ut enim ad mini veniam.</p>
-                        </div>
-                        <!-- Section Heading End -->
-                        <div class="row">
-                            <div class="col-md-7 col-sm-6">
-                                <!-- Donut Chart Start -->
-                                <div class="donut-chart-outer">
-                                    <div id="chartdiv"></div>
-                                </div>
-                                <!-- Donut Chart End -->
-                            </div>
-                            <div class="col-md-5 col-sm-6">
-                                <!-- Chart Caption Start -->
-                                <div class="chart-caption-thumb radius-5">
-                                    <h6 class="title">The bonus for early investors can reach 25%</h6>
-                                    <div class="text">
-                                        <div class="graph-caption">
-                                            <strong class="orange">40%</strong>
-                                            <p>Public Presale - 276 Million</p>
-                                        </div>
-                                        <div class="graph-caption">
-                                            <strong class="reddish">30%</strong>
-                                            <p>Private Presale - 207 Million</p>
-                                        </div>
-                                        <div class="graph-caption">
-                                            <strong class="purple">30%</strong>
-                                            <p>Public Token Sale  - 207 Million</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Chart Caption End -->
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Token Sale Section End -->
-                <!-- Our Team Section Start -->
-                <section class="border-bottom" id="ourteam">
-                    <div class="container">
-                        <!-- Section Heading Start -->
-                        <div class="section-heading-2 text-center mb-61">
-                            <h2 class="title">Our Team</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius magna aliqua. Ut enim ad mini veniam.</p>
-                        </div>
-                        <!-- Section Heading End -->
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <!-- Team Thumb Start -->
-                                <div class="osr-team-thumb">
-                                    <figure class="center-block">    
-                                        <img src="images/xber/team-img1.jpg" alt="">
-                                    </figure>
-                                    <div class="text">
-                                        <h6 class="title"><a href="#">Justin Brewer </a></h6>
-                                        <div class="designation">CEO</div>
-                                        <p>Previously Product Manager at Facebook and Instagram Studied business at Wharton</p>
-                                    </div>
-                                </div>
-                                <!-- / Team Thumb End -->
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <!-- Team Thumb Start -->
-                                <div class="osr-team-thumb">
-                                    <figure class="center-block">    
-                                        <img src="images/xber/team-img2.jpg" alt="">
-                                    </figure>
-                                    <div class="text">
-                                        <h6 class="title"><a href="#">Ashley Reyes</a></h6>
-                                        <div class="designation">CTO</div>
-                                        <p>Part-time Partner at Y Combinator Prevoiusly Director at Facebook Investor in Broom</p>
-                                    </div>
-                                </div>
-                                <!-- / Team Thumb End -->
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <!-- Team Thumb Start -->
-                                <div class="osr-team-thumb">
-                                    <figure class="center-block">    
-                                        <img src="images/xber/team-img3.jpg" alt="">
-                                    </figure>
-                                    <div class="text">
-                                        <h6 class="title"><a href="#">Timothy Douglas</a></h6>
-                                        <div class="designation">Vice President</div>
-                                        <p>CEO & Cofounder of Chain Previously Director at Facebook  Venture Partner at Ventures.</p>
-                                    </div>
-                                </div>
-                                <!-- / Team Thumb End -->
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <!-- Team Thumb Start -->
-                                <div class="osr-team-thumb">
-                                    <figure class="center-block">    
-                                        <img src="images/xber/team-img4.jpg" alt="">
-                                    </figure>
-                                    <div class="text">
-                                        <h6 class="title"><a href="#">Lauren Garza</a></h6>
-                                        <div class="designation">Advisor</div>
-                                        <p>Chief Risk Officer, at Wharton Passport Capital Chain Previously Director at Previously VP at MSCI.</p>
-                                    </div>
-                                </div>
-                                <!-- / Team Thumb End -->
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <!-- Team Thumb Start -->
-                                <div class="osr-team-thumb">
-                                    <figure class="center-block">    
-                                        <img src="images/xber/team-img5.jpg" alt="">
-                                    </figure>
-                                    <div class="text">
-                                        <h6 class="title"><a href="#">Justin Brewer </a></h6>
-                                        <div class="designation">CEO</div>
-                                        <p>Previously Product Manager at Facebook and Instagram Studied business at Wharton</p>
-                                    </div>
-                                </div>
-                                <!-- / Team Thumb End -->
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <!-- Team Thumb Start -->
-                                <div class="osr-team-thumb">
-                                    <figure class="center-block">    
-                                        <img src="images/xber/team-img6.jpg" alt="">
-                                    </figure>
-                                    <div class="text">
-                                        <h6 class="title"><a href="#">Ashley Reyes</a></h6>
-                                        <div class="designation">CTO</div>
-                                        <p>Part-time Partner at Y Combinator Prevoiusly Director at Facebook Investor in Broom</p>
-                                    </div>
-                                </div>
-                                <!-- / Team Thumb End -->
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Our Team Section End -->
                 <!-- Blog Section Start -->
-                <section id="blog">
+                <section class="" id="blog">
                     <div class="container">
                         <!-- Section Heading Start -->
                         <div class="section-heading-2 text-center mb-61">
-                            <h2 class="title">Our Blog</h2>
+                            <h2 class="title">What Media Says</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius magna aliqua. Ut enim ad mini veniam.</p>
                         </div>
                         <!-- Section Heading End -->
                         <div class="row">
-                            <div class="col-md-4 col-sm-6">
+                            <div data-aos="fade-up" data-aos-delay="300" class="col-md-4 col-sm-6">
                                 <!-- /Blog Thumb Start -->
-                                <div class="blog-thumb">
-                                    <figure class="radius-5 th-bg">
-                                        <img src="images/xber/blog-thumb-1.jpg" alt=""> 
+                                <div class="radius-5 blog-thumb-2">
+                                    <figure class="">
+                                        <img src="images/crypton/blog-thumb-1.jpg" alt=""> 
+                                        <ul class="blog-meta">
+                                            <li class="post-date th-cl"><time datetime="2018-07-16">July 16, 2018</time></li>
+                                        </ul>
                                     </figure>
                                     <div class="text">
-                                        <ul class="blog-meta">
-                                            <li class="post-date"><time datetime="2018-07-16">July 16, 2018</time></li>
-                                        </ul>
                                         <h5 class="title"><a href="#">Report about the team’s trip to the road show</a></h5>
-                                        <p>We accept access as a startup to venture capital is hard It takes and costs money that a startup doesn’t have.Access to venture capital pool of trusted investors</p>
+                                        <p>We accept access as a startup to venture capital is hard It takes and costs money that a startup </p>
                                     </div>
                                 </div>
                                 <!-- /Blog Thumb End -->
                             </div>
-                            <div class="col-md-4 col-sm-6">
+                            <div data-aos="fade-up" data-aos-delay="400" class="col-md-4 col-sm-6">
                                 <!-- /Blog Thumb Start -->
-                                <div class="blog-thumb">
-                                    <figure class="radius-5 th-bg">
-                                        <img src="images/xber/blog-thumb-2.jpg" alt=""> 
+                                <div class="radius-5 blog-thumb-2">
+                                    <figure class=" th-bg">
+                                        <img src="images/crypton/blog-thumb-2.jpg" alt=""> 
+                                        <ul class="blog-meta">
+                                            <li class="post-date th-cl"><time datetime="2018-07-16">July 14, 2018</time></li>
+                                        </ul>
                                     </figure>
                                     <div class="text">
-                                        <ul class="blog-meta">
-                                            <li class="post-date"><time datetime="2018-07-16">July 14, 2018</time></li>
-                                        </ul>
                                         <h5 class="title"><a href="#">Report about the team’s trip to the road show</a></h5>
-                                        <p>We accept access as a startup to venture capital is hard It takes and costs money that a startup doesn’t have.Access to venture capital pool of trusted investors</p>
+                                        <p>We accept access as a startup to venture capital is hard It takes and costs money that a startup </p>
                                     </div>
                                 </div>
                                 <!-- /Blog Thumb End -->
                             </div>
-                            <div class="col-md-4 hidden-sm">
+                            <div data-aos="fade-up" data-aos-delay="500" class="col-md-4 hidden-sm">
                                 <!-- /Blog Thumb Start -->
-                                <div class="blog-thumb">
-                                    <figure class="radius-5 th-bg">
-                                        <img src="images/xber/blog-thumb-3.jpg" alt=""> 
+                                <div class="radius-5 blog-thumb-2">
+                                    <figure class=" th-bg">
+                                        <img src="images/crypton/blog-thumb-3.jpg" alt=""> 
+                                        <ul class="blog-meta">
+                                            <li class="post-date th-cl"><time datetime="2018-07-16">July 12, 2018</time></li>
+                                        </ul>
                                     </figure>
                                     <div class="text">
-                                        <ul class="blog-meta">
-                                            <li class="post-date"><time datetime="2018-07-16">July 12, 2018</time></li>
-                                        </ul>
                                         <h5 class="title"><a href="#">Report about the team’s trip to the road show</a></h5>
-                                        <p>We accept access as a startup to venture capital is hard It takes and costs money that a startup doesn’t have.Access to venture capital pool of trusted investors</p>
+                                        <p>We accept access as a startup to venture capital is hard It takes and costs money that a startup </p>
                                     </div>
                                 </div>
                                 <!-- /Blog Thumb End -->
@@ -523,185 +437,106 @@
                     </div>
                 </section>
                 <!-- Blog Section End -->
-                <!-- Contact Us Section Start -->
-                <section class="light-black-bg" id="contactus">
-                    <div class="container">
-                        <!-- Section Heading Start -->
-                        <div class="section-heading-2 white text-center mb-61">
-                            <h2 class="title">Frequently Asked Questions</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius magna aliqua. Ut enim ad mini veniam.</p>
+            </div><!--/Main Contant End-->  
+            <footer class="osr-footer-2 dark-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <!-- Widget Nav Menu Start --> 
+                            <div class="widget widget_about">
+                                <div class="widget-title">
+                                    <h5 class="title th-cl">About Core Infinity</h5>
+                                </div><!-- /Widget Title -->
+                                <div class="text">
+                                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    <ul class="social-list long">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+                                    </ul><!-- /Social List End-->
+                                </div>
+                            </div>
+                            <!-- /Widget Nav Menu End -->
                         </div>
-                        <!-- Section Heading End -->
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6" id="accordion" role="tablist" aria-multiselectable="true">
-                                <!-- Collapse Thumb Start -->
-                                <div class="simple-accordian panel panel-default">
-                                    <div class="panel-heading" role="tab" id="heading1">
-                                        <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">What is ICO Xber?</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi utstrud exercitation ulluer magna, nulla dolores nemo culpa, congueamco aeiciendis eget consectetuer martello pnrtorio vascello aliquip ex ea commodo.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/Collapse Thumb End -->
-                                <!-- Collapse Thumb Start -->
-                                <div class="simple-accordian panel panel-default">
-                                    <div class="panel-heading" role="tab" id="heading2">
-                                        <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">What is ICO Xber?</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi utstrud exercitation ulluer magna, nulla dolores nemo culpa, congueamco aeiciendis eget consectetuer martello pnrtorio vascello aliquip ex ea commodo.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/Collapse Thumb End -->
-                                <!-- Collapse Thumb Start -->
-                                <div class="simple-accordian panel panel-default">
-                                    <div class="panel-heading" role="tab" id="heading3">
-                                        <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">What is ICO Xber business model?</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi utstrud exercitation ulluer magna, nulla dolores nemo culpa, congueamco aeiciendis eget consectetuer martello pnrtorio vascello aliquip ex ea commodo.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/Collapse Thumb End -->
+                        <div class="col-md-3 col-sm-6">
+                            <!-- Widget Nav Menu Start --> 
+                            <div class="widget widget_nav_menu">
+                                <div class="widget-title">
+                                    <h5 class="title th-cl">Learn More</h5>
+                                </div><!-- /Widget Title -->
+                                <ul>
+                                    <li><a href="#">Partners</a></li>
+                                    <li><a href="#">Report Bug</a></li>
+                                    <li><a href="#">Marketplace</a></li>
+                                    <li><a href="#">Help Center</a></li>
+                                </ul><!-- / Ul -->
                             </div>
-                            <div class="col-md-6 col-sm-6" id="second-accordion" role="tablist" aria-multiselectable="true">
-                                <!-- Collapse Thumb Start -->
-                                <div class="simple-accordian panel panel-default">
-                                    <div class="panel-heading" role="tab" id="heading4">
-                                        <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#second-accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">How Xber different from other ICO</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapse4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading4">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi utstrud exercitation ulluer magna, nulla dolores nemo culpa, congueamco aeiciendis eget consectetuer martello pnrtorio vascello aliquip ex ea commodo.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/Collapse Thumb End -->
-                                <!-- Collapse Thumb Start -->
-                                <div class="simple-accordian panel panel-default">
-                                    <div class="panel-heading" role="tab" id="heading5">
-                                        <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#second-accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">What is Xber Smart Contract</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi utstrud exercitation ulluer magna, nulla dolores nemo culpa, congueamco aeiciendis eget consectetuer martello pnrtorio vascello aliquip ex ea commodo.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/Collapse Thumb End -->
-                                <!-- Collapse Thumb Start -->
-                                <div class="simple-accordian panel panel-default">
-                                    <div class="panel-heading" role="tab" id="heading6">
-                                        <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#second-accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">How to exchange Xber</a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi utstrud exercitation ulluer magna, nulla dolores nemo culpa, congueamco aeiciendis eget consectetuer martello pnrtorio vascello aliquip ex ea commodo.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/Collapse Thumb End -->
+                            <!-- /Widget Nav Menu End -->
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <!-- Widget Nav Menu Start --> 
+                            <div class="widget widget_nav_menu">
+                                <div class="widget-title">
+                                    <h5 class="title th-cl">Quick Links</h5>
+                                </div><!-- /Widget Title -->
+                                <ul>
+                                    <li><a href="#">API</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul><!-- / Ul -->
                             </div>
+                            <!-- /Widget Nav Menu End -->
+                        </div>
+                        <div class="col-md-3 col-sm-6"> 
+                            <div class="widget widget-newsletter">
+                                <div class="widget-title">
+                                    <h5 class="title th-cl">Subscribe for Newsletter</h5> 
+                                </div><!-- /Widget Title -->
+                                <div class="newsletter-widget">
+                                    <p>Stay connect with us</p>
+                                    <div id="mc_embed_signup" class="input-field nl-form-container clearfix">
+                                        <form 
+                                            action="https://twitter.us16.list-manage.com/subscribe/post-json?u=c768d55d7a9fca1c581bc5614&amp;id=6db56c6523&amp;c=?"
+                                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
+                                            class="newsletterform validate" 
+                                            target="_blank" 
+                                            novalidate>
+                                            <input 
+                                                value="" 
+                                                type="email" 
+                                                name="EMAIL"
+                                                id="mce-EMAIL" 
+                                                maxlength="32"
+                                                placeholder="Email" 
+                                                class="email form-control nl-email-input" 
+                                                required>
+                                            <div style="position: absolute; left: -5000px;">
+                                                <input 
+                                                    type="text" 
+                                                    name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" 
+                                                    tabindex="-1" 
+                                                    value="">
+                                            </div>
+                                            <label class="search-icon"><input class="btn th-bg" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Subscribe"></label>
+                                        </form>
+                                        <div id="notification_container"></div>
+                                    </div><!-- /Input Field End-->
+                                </div><!-- / Ul -->
+                            </div><!-- /Widget Nav Menu -->
                         </div>
                     </div>
-                </section>
-                <!-- Contact Us Section End -->
-                <section id="contact" class="fake-footer-inner">
-                        <div class="container">
-                            <div class="contact-section">
-                                <!-- Section Heading Start -->
-                                <div class="section-heading-2  text-center mb-61">
-                                    <h2 class="title">Get in Touch</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius magna aliqua. Ut enim ad mini veniam.</p>
-                                </div>
-                                <!-- Section Heading End -->
-                                <form class="contact-form" id="contact-form" action="https://iconic-themes.com/html/crypto/crypto/php/contact-form.php" method="POST">
-                                    <!--Divider Start-->
-                                    <div class="input-divider row">
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="input-field">
-                                                <input class="form-control"  
-                                                    value="" 
-                                                    id="name" 
-                                                    type="text"
-                                                    name="name" 
-                                                    maxlength="100" 
-                                                    placeholder="Full name" 
-                                                    data-msg-required="Please enter your name" 
-                                                    required>
-                                                    <i class="fa fa-user ab-right"></i>
-                                            </div><!--/Input Field End-->
-                                        </div>
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="input-field">
-                                                <input class="form-control"  
-                                                    value="" 
-                                                    id="email" 
-                                                    type="email" 
-                                                    name="email" 
-                                                    maxlength="100" 
-                                                    placeholder="Email address" 
-                                                    data-msg-required="Please enter your email address" 
-                                                    data-msg-email="Please enter a valid email address" 
-                                                    required>
-                                                    <i class="fas fa-envelope ab-right"></i>
-                                            </div><!--/Input Field End-->
-                                        </div>
-                                    </div><!--/Divider End-->
-                                    <div class="input-field">
-                                        <textarea class="form-control"  rows="4" id="message"  placeholder="Message" name="message"></textarea>
-                                    </div><!--/Input Field End-->
-                                    <div class="input-field mb-0 text-center">
-                                        <input class="btn th-bg btn-lg" type="submit" value="Send" data-loading-text="Loading...">
-                                    </div><!--/Input Field End-->
-                                    <div class="alert alert-success hidden alert-dismissible animated pulse fixed-alert-box" id="contactSuccess">
-                                        <button type="button" class="close" data-dismiss="alert">
-                                            <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                                        </button>
-                                        Thanks, your message has been sent to us.
-                                    </div>
-                                    <div class="alert alert-danger hidden alert-dismissible animated shake fixed-alert-box" id="contactError">
-                                        <button type="button" class="close" data-dismiss="alert">
-                                            <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                                        </button>
-                                        <strong>Error!</strong> There was an error sending your message.
-                                    </div>
-                                </form>
-                            </div>
-                        </div><!-- / Container -->
-                        <div id="map-canvas" data-address="182 Duke's Ride, Berkshire, Crowthorne, UK"></div><!-- / Map Wrap End -->
-                </section>
-            </div><!--/Main Contant End-->  
-            <div class="copy-right light-black-bg">
+                </div><!-- / Container -->
+            </footer><!-- / Footer 1 -->
+            <div class="copy-right">
                 <div class="container">
                     <div class="pull-left">
-                        <p>@ 2018 Copyrights by Xber. All Rights Reserved.</p>
+                        <p>@ 2023 Copyrights by Core Infinity. All Rights Reserved.</p>
                     </div>
                     <div class="pull-right">
                         <ul class="short-nav">
                             <li><a href="#">Terms of services</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Security</a></li>
-                            <li><a href="#">Siemap</a></li>
                         </ul><!-- / Ul -->
                     </div>
                 </div>
@@ -711,30 +546,24 @@
     	<script src="js/jquery.js"></script>
     	<!-- bootstrap -->
     	<script src="js/bootstrap.js"></script>
-        <!-- Slick Slider -->
-        <script src="js/slick.min.js"></script>
-        <!-- Smooth Scroll -->
-        <!--<script src="js/smooth-scroll.js"></script>-->
+        <!-- Scroll Animation -->
+        <script src="js/aos.js"></script>
         <!--Responsive Menu js -->
         <script src="js/responsivemenu.js"></script>
-        <!-- Popup Js -->
-        <script src="js/magnific-popup.js"></script>
-        <!-- Fontawesome Js -->
-        <script src="js/fontawesome.js"></script>
-        <!-- Donut Chart Js -->
-        <script src="js/donut-chart.js"></script>
-        <script src="js/responsive.min.js"></script>
         <!-- Onepage Nav Js -->
         <script src="js/jquery.nav.js"></script>
-        <!-- FORMS VALIDATION   -->
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/contact-form-validation.min.js"></script>
-        <!-- Map Api Library -AIzaSyDbj_PE71ocTwX_MVhtTXrDJ3p61HvV018-->
-        <script src="http://maps.google.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-        <script src="js/gmap3.min.js"></script>
+        <!-- Smooth Scroll -->
+        <!--<script src="js/smooth-scroll.js"></script>-->
+        <!-- CountDown Js -->
+        <script src="js/countdown.js"></script>
+        <script src="js/waypoints-min.js"></script>
+        <!-- Slick Slider -->
+        <script src="js/slick.min.js"></script>
+        <!-- Fontawesome Js -->
+        <script src="js/fontawesome.js"></script>
         <!--Custom Script-->
-        <script src="js/custom.js"></script>
+    	<script src="js/custom.js"></script>
 	</body>
 
-<!-- Mirrored from iconic-themes.com/html/crypto/crypto/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Mar 2023 23:31:38 GMT -->
+<!-- Mirrored from iconic-themes.com/html/crypto/crypto/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Mar 2023 23:31:07 GMT -->
 </html>
