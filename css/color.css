@@ -159,7 +159,7 @@ textarea,
 .crypton-vertion .navigation li.active > a,
 .crypton-vertion .navigation li:hover > a
 {
-  color: #f9603e
+  color: #e98a0f
 }
 /*
       ============================================================
@@ -175,7 +175,7 @@ textarea,
 .crypton-vertion .roadmap-slider-2 .slick-slide::before,
 .crypton-vertion .horizontal-progress .progress-bar::before
 {
-    background-color: #f9603e 
+    background-color: #e98a0f
 }
 /*
       ============================================================
@@ -189,7 +189,7 @@ textarea,
     border-color: #f9603e
 }
 .crypton-vertion .btn{
-  --box-shadow-color: #f9603e;
+  --box-shadow-color: #e98a0f;
 }
 .lighter-black-bg{
     background-color:#1d1f29/* #ebebea */;
